@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ExampleButtons from './components/ExampleButtons';
 
 // PUBLIC_INTERFACE
 function App() {
@@ -41,6 +42,9 @@ function App() {
         >
           Learn React
         </a>
+
+        <div style={{ height: 16 }} />
+        <ExampleButtons />
       </header>
     </div>
   );
